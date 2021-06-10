@@ -1,5 +1,6 @@
 <script>
   import "tailwindcss/tailwind.css"
+  import 'lazysizes';
 </script>
 
 <main style="background-color: #f7f7f7;">
@@ -16,7 +17,7 @@
                     </a>
                 </div>
                 <div class="flex justify-center">
-                    <img src="img/illustration/coding.svg" alt="Kodekarta" class="min-w-full md:w-2/3 md:h-2/3">
+                    <img data-src="img/illustration/coding.svg" alt="Kodekarta" class="lazyload min-w-full md:w-2/3 md:h-2/3">
                 </div>
             </div>
         </section>
